@@ -29,7 +29,7 @@ main {
 }
 
 textarea {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   display: block;
   width: 100%;
   min-height: 20vh;
@@ -50,6 +50,25 @@ button {
   font-size: large;
   border-radius: 18px;
   letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+h3 {
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+#output {
+  padding: 1rem;
+  font-size: large;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 20vh;
+  overflow: scroll;
+  border: 1px solid #000000;
+  border-radius: 10px;
 }
 
 footer {
@@ -59,6 +78,7 @@ footer {
   width: 100%;
   padding: 1rem;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .footer-heading {
