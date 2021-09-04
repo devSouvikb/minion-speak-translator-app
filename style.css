@@ -20,3 +20,23 @@ nav {
 .nav-heading {
   font-weight: bold;
 }
+
+footer {
+  background-color: var(--primary-color);
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  margin: auto;
+  max-width: 600px;
+  line-height: 28px;
+}
