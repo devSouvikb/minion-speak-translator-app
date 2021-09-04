@@ -13,4 +13,16 @@ function errorHandler(error) {
   alert("Something is wrong with server please try after sometime.");
 }
 
+function clickEventHandler() {
+  let inputText = txtInput.value;
+
+  fetch(getTranslationURL(inputText))
+    .then((response) => response.json())
+    .then((json) => {
+      let translatedText = json.contents.translated;
+      txtOutput.innerText = translatedText;
+    })
+    .catch(errorHandler);
+}
+
 btnTranslate.addEventListener("click", clickEventHandler);
