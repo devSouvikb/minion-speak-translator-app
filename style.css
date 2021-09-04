@@ -6,4 +6,17 @@
 
 body {
   font-family: "Gloria Hallelujah", cursive;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: var(--primary-color);
+  text-align: center;
+  display: block;
+  font-size: 2rem;
+  padding: 0.8rem;
+}
+
+.nav-heading {
+  font-weight: bold;
 }
